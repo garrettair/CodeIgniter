@@ -72,14 +72,15 @@ Library Reference
 	
 	libraries/index
 
-****************
-Driver Reference
-****************
+******************
+Database Reference
+******************
 
-- :doc:`libraries/caching`
-- :doc:`database/index`
-- :doc:`libraries/javascript`
-- :doc:`libraries/sessions`
+.. toctree::
+	:glob:
+	:titlesonly:
+	
+	database/index
 
 ****************
 Helper Reference
@@ -100,6 +101,7 @@ Contributing to CodeIgniter
 	:titlesonly:
 	
 	contributing/index
+	documentation/index
 	DCO
 
 .. toctree::
@@ -116,6 +118,5 @@ Contributing to CodeIgniter
 	libraries/index
 	helpers/index
 	database/index
-	documentation/index
 	tutorial/index
 	general/credits
